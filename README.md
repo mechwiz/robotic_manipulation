@@ -22,18 +22,18 @@ The error plot is shown below. As can be seen, the error starts very small since
 ![ff.png](imgs/ff.png)
 
 A demo is shown below.
-![kukabot_ff.avi](vids/kukabot_ff.avi)
+![kukabot_ff.fig](imgs/kukabot_ff.gif)
 
 #### Feedforward + PI Control with inital conditions not on the desired path.
 The error plot is shown below. As can be seen, the 2% settling time is a little bit after 1.5 seconds, which is within the 2 seconds required by the problem. It can also be seen that there is one main overshoot which can be seen in the video at the beginning of the demo.
 ![ffkpki1.png](imgs/ffkpki1.png)
 
 A demo is shown below.
-![kukabot_kpki1.avi](vids/kukabot_kpki1.avi)
+![kukabot_kpki1gif](imgs/kukabot_kpki1.gif)
 
 #### Feedforward + PI Control with inital conditions not on the desired path.
 The error plot is shown below. As can be seen, the overshoot is much bigger and there are more oscillations than the previous plot. This is because the Ki gain is very big which means that the imaginary parts of the roots will be much larger than in the previous demo. Looking at the root locus plot, we know that the higher the imaginary roots, the higher the overshoot and number of oscillations. So this plot makes sense from what we conceptually know about control theory. Furthermore, these oscillations can be seen in the video which confirms that the demo is working right.
 ![ffkpki2.png](imgs/ffkpki2.png)
 
 A demo is shown below.
-![kukabot_kpki2.avi](vids/kukabot_kpki2.avi)
+![kukabot_kpki2.gif](imgs/kukabot_kpki2.gif)
