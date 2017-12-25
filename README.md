@@ -9,7 +9,7 @@ To move the end-effector of the KUKA youBot from its current configuration to a 
 
 #### General Steps
 1. Get the robot's current configuration ***X*** using forward kinematics. Initial joint conditions are provided in the problem.
-2. Get the robot's desired configuration ***Xd*** and twist ***Vd***. The desired configuration is determined from a path ***Xd(s)*** provided by the problem where ***s*** is the the cubic time scaling from ***t = 0*** to ***t==5***. The desired twist is determined using ***Xd*** and its derivative.
+2. Get the robot's desired configuration ***Xd*** and twist ***Vd***. The desired configuration is determined from a path ***Xd(s)*** provided by the problem where ***s*** is the the cubic time scaling from ***t = 0*** to ***t = 5***. The desired twist is determined using ***Xd*** and its derivative.
 3. Calculate the error between the desired and current configuration.
 4. Evaluate the control law to find the commanded end-effector twist ***V***.
 5. Calculate the commanded wheel and joint velocities using the pseudo-inverse of the end-effector Jacobian multiplied by the commanded end-effector twist.
