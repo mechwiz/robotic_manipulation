@@ -22,6 +22,7 @@ The error plot is shown below. As can be seen, the error starts very small since
 ![ff.png](imgs/ff.png)
 
 A demo is shown below.
+
 ![kukabot_ff.fig](imgs/kukabot_ff.gif)
 
 #### Feedforward + PI Control with inital conditions not on the desired path.
@@ -29,6 +30,7 @@ The error plot is shown below. As can be seen, the 2% settling time is a little 
 ![ffkpki1.png](imgs/ffkpki1.png)
 
 A demo is shown below.
+
 ![kukabot_kpki1gif](imgs/kukabot_kpki1.gif)
 
 #### Feedforward + PI Control with inital conditions not on the desired path.
@@ -36,4 +38,5 @@ The error plot is shown below. As can be seen, the overshoot is much bigger and 
 ![ffkpki2.png](imgs/ffkpki2.png)
 
 A demo is shown below.
+
 ![kukabot_kpki2.gif](imgs/kukabot_kpki2.gif)
